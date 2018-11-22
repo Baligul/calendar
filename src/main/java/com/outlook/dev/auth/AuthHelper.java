@@ -22,10 +22,10 @@ public class AuthHelper {
 		"openid", 
 		"offline_access",
 		"profile", 
-		"User.Read",
-		"Mail.Read",
-		"Calendars.Read",
-		"Contacts.Read"
+		"User.ReadWrite",
+		"Mail.ReadWrite",
+		"Calendars.ReadWrite",
+		"Contacts.ReadWrite"
 	};
 	
 	private static String appId = null;

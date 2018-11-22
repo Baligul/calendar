@@ -47,6 +47,9 @@ public class AuthorizeController {
 				// Get user info
 				OutlookService outlookService = OutlookServiceBuilder.getOutlookService(tokenResponse.getAccessToken(), null);
 				OutlookUser user;
+				System.out.println("************************** TOKEN: "+ tokenResponse.getAccessToken());
+				System.out.println("************************** REFRESH TOKEN: "+ tokenResponse.getRefreshToken());
+				System.out.println("************************** Expiration Time: "+ tokenResponse.getExpirationTime());
 				try {
 					user = outlookService.getCurrentUser().execute().body();
 					session.setAttribute("userEmail", user.getMail());
