@@ -1,6 +1,6 @@
 # Getting Started with the Microsoft Graph Outlook Mail API and Java
 
-The sample code in this repository is the end result of going through the [Java tutorial on the Outlook Dev Center](https://docs.microsoft.com/en-us/outlook/rest/java-tutorial). If you go through that tutorial yourself, you should end up with code very similar to this. If you download or fork this repository, you'll need to follow the steps in [Configure the sample](#configure-the-sample) to run it.
+The sample code in this repository is the end result of going through the [Java tutorial on the Outlook Dev Center](https://docs.microsoft.com/en-us/outlook/rest/calendar). If you go through that tutorial yourself, you should end up with code very similar to this. If you download or fork this repository, you'll need to follow the steps in [Configure the sample](#configure-the-sample) to run it.
 
 > **NOTE:** Looking for the version of this tutorial that used the Outlook API directly instead of Microsoft Graph? Check out the `outlook-api` branch. Note that Microsoft recommends using the Microsoft Graph to access mail, calendar, and contacts. You should use the Outlook APIs directly (via https://outlook.office.com/api) only if you require a feature that is not available on the Graph endpoints.
 
@@ -13,7 +13,7 @@ The sample code in this repository is the end result of going through the [Java 
 
 Head over to https://apps.dev.microsoft.com to quickly get a application ID and password. Click the **Sign in** link and sign in with either your Microsoft account (Outlook.com), or your work or school account (Office 365).
 
-Once you're signed in, click the **Add an app** button. Enter `java-tutorial` for the name and click **Create application**. After the app is created, locate the **Application Secrets** section, and click the **Generate New Password** button. Copy the password now and save it to a safe place. Once you've copied the password, click **Ok**.
+Once you're signed in, click the **Add an app** button. Enter `calendar` for the name and click **Create application**. After the app is created, locate the **Application Secrets** section, and click the **Generate New Password** button. Copy the password now and save it to a safe place. Once you've copied the password, click **Ok**.
 
 ![The new password dialog.](./readme-images/new-password.PNG)
 
